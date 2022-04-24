@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a href="#top">&uarr;</a></li>
+        <li class="navbar-item"><a href="#work">about</a></li>
+        <li class="navbar-item"><a href="#work">work</a></li>
+      </ul>
+    </nav> -->
+    <div class="btn-top-bg">
+      <button class="btn-top">
+        <a href="#top" class="btn--link__top">&#8679;</a>
+      </button>
+    </div>
+    <div class="navbar-outline container"></div>
+    <main class="main" id="top">
+      <header class="container header grid--2-cols">
+        <img
+          src="img/john.jpg"
+          alt="nicholas's picture"
+          width="150px"
+          height="150px"
+        />
+        <div class="header-info-container">
+          <h2>Nicholas Barraza</h2>
+          <h1>hello, i'm a <strong>web developer</strong></h1>
+          <button class="btn-to-about">
+            <strong><a href="#about">About</a></strong>
+          </button>
+        </div>
+      </header>
+      <section class="about grid--1-cols-3-rows">
+        <h2 class="first-h2" id="about">about</h2>
+        <!-- <div class="flex--col-1"> -->
+        <div class="languages container about-content">
+          <h2>languages</h2>
+          <ul class="list">
+            <li class="list-item">html</li>
+            <li class="list-item">css</li>
+            <li class="list-item">javascript</li>
+          </ul>
+        </div>
+        <div class="tools container about-content">
+          <h2>tools</h2>
+          <ul class="list">
+            <li class="list-item">visual studio</li>
+            <li class="list-item">terminal</li>
+            <li class="list-item">coolers</li>
+            <!-- <li class="list-item">open colors</li> -->
+          </ul>
+        </div>
+        <div class="extras container about-content">
+          <h2>extras</h2>
+          <ul class="list">
+            <li class="list-item">bootstrap</li>
+            <li class="list-item">node</li>
+            <li class="list-item">sass</li>
+          </ul>
+        </div>
+        <!-- </div> -->
+        <div class="work container about-content">
+          <h2>work</h2>
+          <ul class="list">
+            <li class="list-item">
+              <a
+                href="https://github.com/FullTimeJSDev/websites.git"
+                target="_blank"
+                >html & css</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                href="https://github.com/FullTimeJSDev/javascript.git"
+                target="_blank"
+                >javascript</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container grid--1-cols-1-row">
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a
+            href="https://github.com/FullTimeJSDev/websites.git"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li class="footer-item"><a href="#">Email</a></li>
+      </ul>
+      <p class="copyright">
+        Copyright &copy; 2022 by Nicholas Barraza, All Rights Reserved
+      </p>
+    </footer>
+    <script src="js/js/script.js"></script>
+  </body>
+</html>
