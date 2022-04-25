@@ -1,0 +1,122 @@
+@media screen and (max-width: 640px) and (min-width: 320px) {
+  body {
+    font-weight: 150;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  #creatorIntro h1 {
+    padding-top: 0;
+    margin-top: 1.8rem;
+    font-size: 30px;
+  }
+  #creatorIntro blockquote {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  #creatorIntro img {
+    border-radius: 100%;
+    margin-top: 1rem;
+  }
+  header button {
+    margin-top: 1rem;
+    border-radius: 15% 15%;
+    font-size: 1.3rem;
+  }
+
+  /*About section begins*/
+  article {
+    height: auto;
+  }
+  article #about {
+    padding: 0;
+  }
+  article #all-list {
+    display: block;
+    line-height: 2;
+  }
+
+  article #all-list .first-li {
+    font-size: 1.6rem;
+    border: solid;
+    border-color: black;
+    list-style: none;
+  }
+  article #all-list .list-font {
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 2.4;
+    padding: 1.3rem;
+  }
+  article #about #languages-box-width {
+    width: 60%;
+  }
+  article #about #tools-box-width {
+    width: 30%;
+  }
+  article #about #projects-box-width {
+    width: 45%;
+  }
+
+  /*Footer section begins*/
+  footer #footer-text #footer-info-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.3rem;
+  }
+  footer #footer-text a {
+    display: none;
+  }
+  .fa,
+  .fab,
+  .fal,
+  .far,
+  .fas {
+    font-size: 1.6rem !important;
+  }
+  footer #footer-text p .iconify {
+    font-size: 23px !important;
+  }
+}
+@media screen and (max-width: 731px) and (min-width: 411px) {
+  /*Header section begins*/
+  #creatorIntro h1 {
+    padding-top: 2rem;
+    font-size: 2.6rem;
+  }
+  #creatorIntro img {
+    border-radius: 100%;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  /*About section begins*/
+  article {
+    height: auto;
+  }
+  article #about {
+    padding: 0;
+  }
+  article #all-list {
+    display: block;
+    line-height: 2;
+  }
+  article #about #languages-box-width {
+    width: 70%;
+  }
+  article #about #tools-box-width {
+    width: 35%;
+  }
+  article #about #projects-box-width {
+    width: 53%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  header {
+    height: 55vh;
+  }
+  article {
+    height: auto;
+  }
+}
